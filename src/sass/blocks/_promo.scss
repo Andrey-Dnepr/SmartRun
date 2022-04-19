@@ -2,6 +2,12 @@
     min-height: 650px;
     padding: 23px 0 93px 0;
     background: url(../img/bg_1.jpg) center (center/cover) no-repeat;
+    &__line {
+        display: none;
+        width: 300px;
+        height: 2px;
+        background: #ffffff;
+    }
     &__wrapper {
         display: flex;
         flex-direction: column;
