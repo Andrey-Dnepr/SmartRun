@@ -32,4 +32,23 @@ $(document).ready(function(){
       };
       toggleSlide('.catalog-item__link');
       toggleSlide('.catalog-item__back');
+
+
+      //Modal windows
+
+    $('[data-modal=consultation]').on('click', function() {
+        $('.overlay, #consultation').fadeIn('slow');  
+    });
+    $('.modal__close').on('click', function() {
+        $('.overlay, #consultation, #order, #thanks').fadeOut('slow');
+    });
+    
+
+    $('.button_mini').each(function(i) { //переберает все значения и записывает в i - индекс той формы на которой нажали кнопку
+        $(this).on('click', function() { //this - указывает, что именно этот объект сейчас будем использовать
+            $('#order .modal__descr').text($('.catalog-item__subtitle').eq(i).text()); //в модальное окно подставляет надпись из карточки
+            $('.overlay, #order').fadeIn('slow');  // показывает модальное окно
+        });
+    });
+
   });

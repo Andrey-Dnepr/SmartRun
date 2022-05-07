@@ -9,6 +9,9 @@
 @import 'blocks/carousel';
 @import 'blocks/catalog';
 @import 'blocks/catalog-item';
+@import 'blocks/reviews-item';
+@import 'blocks/footer';
+@import 'blocks/modal';
 @import 'base/media';
 
 * {
@@ -18,4 +21,8 @@
 .container {
     max-width: 950px;
     margin: 0 auto;
+}
+
+.reviews {
+    padding-bottom: 40px;
 }

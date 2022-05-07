@@ -149,4 +149,76 @@
         margin-left: 10px;
         margin-right: 10px;
     }
+    .reviews-item {
+        flex-wrap: wrap;
+        justify-content: center;
+        &__div {
+            margin: 0 20px 50px 20px;
+        }
+        &_first {
+            padding-top: 20px;
+        }
+        &__img {
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+        &__content {
+            padding: 0 20px 0 20px;
+            &__header {
+                text-align: center;
+            }
+            &__subheader {
+                text-align: center;
+            }
+            &__text {
+                text-align: center;
+            }
+        }
+    }
+    .footer {
+        height: 320px;
+        &__info {
+            width: 260px;
+            height: 160px;
+        }
+        &__addr {
+            margin-top: 20px;
+            font-size: 20px;
+            line-height: 20px;
+        }
+        &__phone {
+            margin-top: 10px;
+            font-size: 15px;
+        }
+        &__social {
+            margin-top: 15px;
+            width: 120px;
+            span {
+                font-size: 30px;
+            }
+        }
+        iframe {
+            height: 320px;
+        }
+    }
+    .modal {
+        width: 280px;
+        &__subtitle {
+            margin-top: 25px;
+            line-height: 15px;
+        }
+        &__descr {
+            width: 260px;
+        }
+        .feed-form {
+            margin-top: 10px;
+            width: 80%;
+        }
+        &__close {
+            position: absolute;
+            top: -45px;
+            right: 50%;
+            transform: translateX(50%);
+        }
+    }
 }
