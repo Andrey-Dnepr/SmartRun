@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?upoj4c');
+  src:  url('../fonts/icomoon.eot?upoj4c#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?upoj4c') format('truetype'),
+    url('../fonts/icomoon.woff?upoj4c') format('woff'),
+    url('../fonts/icomoon.svg?upoj4c#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-trophy:before {
+  content: "\e023";
+}
+.icon-streetsign:before {
+  content: "\e029";
+}
+.icon-chat:before {
+  content: "\e049";
+}
+.icon-heart:before {
+  content: "\e04a";
+}
+.icon-target:before {
+  content: "\e04e";
+}
+.icon-speedometer:before {
+  content: "\e051";
+}
+.icon-facebook:before {
+  content: "\e900";
+  color: #1877f2;
+}
+.icon-instagram:before {
+  content: "\e901";
+  color: #e4405f;
+}
+.icon-pinterest:before {
+  content: "\e902";
+  color: #bd081c;
+}

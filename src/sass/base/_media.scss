@@ -103,4 +103,50 @@
         width: 280px;
 
     }
+    .carousel {
+        padding-bottom: 20px;
+        &__inner {
+            width: 280px;
+        }
+        &__img {
+            width: 100%;
+        }
+        .slick-dots {
+            display: flex;
+            justify-content: center;
+            margin-left: 30px;
+            li {
+                width: 30px;
+            }
+        }
+        button {
+            display: none;
+        }
+    }
+    .catalog {
+        padding-bottom: 20px;
+        &__tabs {
+            margin-top: 20px;
+            width: 280px;
+            margin: 0 auto;
+        }
+        &__tab {
+            width: 70px;
+            height: 30px;
+            font-size: 8.5px;
+            line-height: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            
+        }
+        &__content {
+            margin-top: 20px;
+        }
+    }
+    .catalog-item {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
